@@ -1,0 +1,13 @@
+circleap.c – Area & perimeter of circle
+max3.c – Largest among 3 numbers
+oddeven.c – Check if number is odd or even
+sumdigits.c – Sum of digits using while loop
+factdo.c – Factorial using do-while loop
+sumn.c – Sum of n natural numbers using for loop
+calcswitch.c – Calculator using switch
+prime.c – prime number check
+calcfunc.c – Calculator using function
+apfunc.c – Area & perimeter using function
+arrayio.c – Reading & writing array elements
+arraysum.c – Sum of array elements
+arraymax.c – Largest element in array
