@@ -13,8 +13,6 @@ int main() {
     printf("Perimeter = %d\n", p);
     return 0;
 }
-
-
 int area(int length, int width) {
     return length * width;
 }
