@@ -1,21 +1,21 @@
 #include <stdio.h>
-
-int area(int length, int width);
-int perimeter(int length, int width);
-
+#define PI 3.1416
+float area(float radius);
+float perimeter(float radius);
 int main() {
-    int l, w, a, p;
-    printf("Enter length and width of rectangle: ");
-    scanf("%d %d", &l, &w);
-    a = area(l, w);
-    p = perimeter(l, w);
-    printf("Area = %d\n", a);
-    printf("Perimeter = %d\n", p);
+    float r, a, p;
+    printf("Enter the radius of the circle: ");
+    scanf("%f", &r);
+    a = area(r);
+    p = perimeter(r);
+    printf("Area of the circle = %.2f\n", a);
+    printf("Perimeter (Circumference) of the circle = %.2f\n", p);
+    printf("Program successfully completed. Output obtained.\n");
     return 0;
 }
-int area(int length, int width) {
-    return length * width;
+float area(float radius) {
+    return PI * radius * radius;
 }
-int perimeter(int length, int width) {
-    return 2 * (length + width);
+float perimeter(float radius) {
+    return 2 * PI * radius;
 }
